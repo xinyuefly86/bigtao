@@ -1,0 +1,7 @@
+#if _MSC_VER > 1000
+#pragma once
+#endif // _MSC_VER > 1000
+
+#define HTTP_ERROR_NO_CLIENT_SERVER				(1000)
+#define HTTP_ERROR_EXCEED_MAX_IP_POOL_COUNT		(1001)
+#define HTTP_ERROR_EXCEED_MAX_FILE_COUNT		(1002)
